@@ -1,0 +1,201 @@
+.nav-ticket {
+    height: 10vh;
+    padding: 0;
+  }
+  
+  .cont-main-tickets {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-ticket {
+    height: 10vh;
+    padding: 0;
+  }
+  
+  .cont-principal {
+    flex: 0 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1320px;
+  }
+  
+  .contenedor-cards {
+    display: flex;
+    margin-bottom: 1.2rem;
+    width: 100%;
+  }
+  
+  .titulo-form {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  
+  .titulo-form p {
+    font-size: 1rem;
+  }
+  
+  .cont-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    border-radius: .3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    margin: 0 0.5rem;
+    width: 33%;
+  }
+  
+  .card-1 {
+    border: 1px solid #0d6efd;
+  }
+  
+  .card-2 {
+    border: 1px solid rgba(0,0,0,.125);
+  }
+  
+  .card-3 {
+    border: 1px solid #ffc107;
+  }
+  
+  .header-card {
+    padding: .5rem 1rem;
+  }
+  
+  .h1 {
+    background-color: #0d6efd;
+    color: white;
+  }
+  
+  .h2 {
+    background-color: #0dcaf0;
+  }
+  
+  .h3 {
+    background-color:#ffc107;
+  }
+  
+  .fuente-small {
+    color: #6c757d;
+  }
+  
+  .titulo {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0.7rem;
+  }
+  
+  .body-card {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .body-card p {
+    margin-bottom: 1rem;
+  }
+  
+  .body-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+  }
+  
+  .form-control {
+    font-size: 1rem;
+    padding: .375rem .75rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+  }
+
+  #nombre {
+    margin-right: 0.4rem;
+  }
+  
+  .cont-nombre-apellido {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cont-nombre-apellido input {
+    width: 100%;
+  }
+  
+  .cont-cantidad-categoria {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cont-cantidad,
+  .cont-categoria {
+    width: 100%;
+  }
+  
+  #categoria {
+    background-color: #fff;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+  }
+  
+  .cont-total {
+    width: 96%;
+    color: #084298;
+    background-color: #cfe2ff;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+    padding: 1rem 1rem;
+    border-color: #b6d4fe;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cont-total p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .botones-footer {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #btnBorrar,
+  #btnResumen {
+    background: #96c93e;
+    color: #fff;
+    border-radius: .3rem;
+    width: 49%;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid transparent;
+  }
+
+  #email {
+    width: 97%;
+  }
+
+  #cantidad {
+    width: 92%;
+  }
+  
+  .completar-form {
+    border-color: #dc3545!important;
+  }
+  

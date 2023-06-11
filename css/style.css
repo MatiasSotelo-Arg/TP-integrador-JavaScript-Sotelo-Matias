@@ -1,0 +1,377 @@
+/* resets */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.cont-header {
+    background-color:#353a40;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 0.5rem 0;
+}
+
+.cont-logo {
+    display: inline-flex;
+    align-items: center;
+}
+
+.cont-logo img {
+    width: 100px;
+}
+
+.cont-logo h1 {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.cont-nav {
+    display: flex;
+}
+
+.cont-nav li a {
+    color: #9a9ea1;
+    padding: 0 0.5rem;
+}
+
+.txt-blanco {
+    color: white!important;
+}
+
+.txt-verde {
+    color: #2ba844!important;
+}
+
+/* main */
+.cont-conferencia {
+    background:linear-gradient(to right, #0000009c,#0000009c ),url("../assets/imagenes_integrador_front/hawaii.jpg");
+    background-size: cover;
+    height: 80vh;
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+.hijo-conferencia {
+    padding-right: 5rem;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.hijo-conferencia h1{
+    color:white;
+    text-align: right;
+   font-size: 2rem;
+}
+
+.txt-conferencia{
+    font-size:25px;
+    font-size: 2rem; 
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+    color:white;
+    text-align: right;
+    margin: 1.5rem 0;
+}
+
+.btn-cont {
+    display: flex;
+    justify-content: end;
+}
+
+.btn-conf1 {
+    border: 1px solid #9a9ea1;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: white;
+}
+
+.btn-conf2 {
+    border: 1px solid #2ba844;
+    background-color: #2ba844;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: white;
+    margin-left: 0.6rem;
+}
+
+.cont-oradores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.cont-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-info {
+    margin: 1rem;
+}
+
+.card-orador {
+    width: 20%;
+    margin: 1rem;
+    border: 1px solid #9a9ea17d;
+}
+
+.btn-js {
+    background-color: #fec107;
+    border: #fec107;
+    padding: 0.2rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-react {
+    background-color: #16a3b7;
+    border: #16a3b7;
+    padding: 0.2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-negocios {
+    background-color: #6b757e;
+    border: #6b757e;
+    padding: 0.2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-startups {
+    background-color: #dd3546;
+    border: #dd3546;
+    padding: 0.2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.txt {
+    margin-top: 1rem;
+    color: #222629a6;
+}
+
+.card-orador img {
+    width: 100%;
+}
+
+.cont-info-octubre {
+    display: flex;
+    margin: 1rem 0;
+    background-color: #353a40;
+}
+
+.img-oct {
+    width: 50%;
+}
+
+.info-oct {
+    color: white;
+    width: 50%;
+    padding: 1rem;
+}
+
+.info-oct p {
+    margin: 1rem 0 1.5rem 0;
+    line-height: 1.5rem;
+}
+
+.img-oct img {
+    width: 100%;
+    height: 100%;
+}
+
+.cont-orador {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.cont-input {
+    width: 50%;
+    text-align: center;
+}
+
+
+.input-nombre {
+    display: flex;
+}
+
+.input-nombre input, .cont-input textarea, .cont-input button  {
+    width: 100%;
+}
+
+.btn-enviar {
+    background-color: #96c93e;
+    border: #96c93e;
+    color: white;
+    padding: 0.5rem 0;
+    border-radius: .25rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.p-text {
+    color: #bbbcbd;
+    margin-bottom: 1rem;
+    text-align: start;
+}
+
+.textarea {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: 0.5rem 0;
+}
+
+.margin-left {
+    margin-left: 1rem;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.titulo-orador {
+    margin: 0.5rem;
+}
+
+.cont-footer {
+    background: linear-gradient(90deg, rgba(28,54,67,1) 0%, rgba(30,77,105,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.cont-footer a {
+    color: white;
+    padding: 1rem 1.5rem;
+}
+
+@media (max-width: 500px) {
+    .cont-header {
+        flex-direction: column;
+    }
+
+    .cont-conferencia {
+        margin: 1rem 0;
+    }
+
+    .cont-nav {
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5rem 0;
+    }
+    
+    .cont-nav li {
+        margin: 0.5rem 0;
+    }
+
+    .txt-conferencia {
+        font-size: 1rem;
+    }
+
+    .btn-cont {
+        flex-direction: column;
+    }
+
+    .btn-conf2 {
+        margin: 0.5rem 0;
+    }
+    
+    .cont-orador, .cont-info-octubre {
+        margin: 0;
+    }
+
+    .cont-orador {
+        height: 70vh;
+        justify-content: center;
+    }
+
+    .cont-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-orador {
+        width: 80%;
+    }
+
+    .cont-info-octubre {
+        flex-direction: column;
+    }
+
+    .img-oct {
+        width: 100%;
+    }
+
+    .info-oct {
+        width: 80%;
+    }
+
+    .info-oct p {
+        width: 100%;
+    }
+
+    .cont-input {
+        width: 90%;
+        text-align: center;
+    }
+
+    .cont-footer {
+        flex-direction: column;
+    }
+    
+    .cont-footer a {
+        color: white;
+        padding: 0.5rem 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

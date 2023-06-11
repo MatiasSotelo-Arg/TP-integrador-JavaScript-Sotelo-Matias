@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar tickets</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-tickets.css">
+</head>
+<body>
+    <header class="cont-header nav-ticket">
+        
+        <div class="cont-logo">
+            <a href="../index.html">
+                <img src="../assets/imagenes_integrador_front/codoacodo.png" alt="logo codo a codo">
+            </a>            
+            <h1>Conf Bs As</h1>
+        </div>
+
+        <nav>
+            <ul class="cont-nav">
+                <li>
+                    <a href="#" class="txt-blanco">La conferencia</a>
+                </li>
+                <li>
+                    <a href="#">Los oradores</a>
+                </li>
+                <li>
+                    <a href="#">El lugar y la fecha</a>
+                </li>
+                <li>
+                    <a href="#">Conviértete en orador</a>
+                </li>
+                <li>
+                    <a href="pages/comprar-tickets.html" class="txt-verde">Comprar tickets</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="cont-main-tickets">
+
+        <div class="cont-principal">
+
+            <div class="contenedor-cards">
+                <div class="card card-1">
+                    <div class="header-card h1">
+                        <h3 class="titulo">Estudiante</h3>
+                    </div>
+                    <div class="body-card">
+                        <p>Tiene un descuento</p>
+                        <h3>80%</h3>
+                        <small class="fuente-small">* Presentar documentación</small>
+                    </div>
+                </div>
+                
+                <div class="card card-2">
+                    <div class="header-card h2">
+                        <h3 class="titulo">Trainee</h3>
+                    </div>
+                    <div class="body-card">
+                        <p>Tiene un descuento</p>
+                        <h3>50%</h3>
+                        <small class="fuente-small">* Presentar documentación</small>
+                    </div>
+                </div>
+    
+                <div class="card card-3">
+                    <div class="header-card h3">
+                        <h3 class="titulo">Junior</h3>
+                    </div>
+                    <div class="body-card">
+                        <p>Tiene un descuento</p>
+                        <h3>15%</h3>
+                        <small class="fuente-small">* Presentar documentación</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="titulo-form">
+                <P>VENTA</P>
+                <h2>VALOR DE TICKET $200</h2>
+            </div>
+
+            <div class="cont-form">
+                <div class="cont-nombre-apellido">
+                    <input class="form-control" type="text" placeholder="Nombre" id="nombre" required="">
+                    <input class="form-control" type="text" placeholder="Apellido" id="apellido" required="">
+                </div>
+                <input class="form-control" type="email" placeholder="Email" id="email" required="">
+                <div class="cont-cantidad-categoria">
+                    <div class="cont-cantidad">
+                        <label for="cantidad">Cantidad</label>
+                        <input class="form-control" type="number" placeholder="Cantidad" id="cantidad" required="">
+                    </div>
+                    <div class="cont-categoria">
+                        <label for="categoria">Categoría</label>
+                        <select id="categoria">
+                            <option value="" selected>-- Seleccione una opción --</option>
+                            <option value="0">Ninguna</option>
+                            <option value="1">Estudiante</option>
+                            <option value="2">Trainee</option>
+                            <option value="3">Junior</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="cont-total">
+                    <p>Total a pagar:<span id="total"></span></p>
+                </div>
+                <div class="botones-footer">
+                    <button type="reset" id="btnBorrar">Borrar</button>
+                    <button type="button" id="btnResumen">Resumen</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="cont-footer footer-ticket">
+        <a href="#">Preguntas<br>frecuentes</a>
+        <a href="#">Contáctanos</a>
+        <a href="#">Prensa</a>
+        <a href="#">Conferencia</a>
+        <a href="#">Términos y <br>condiciones</a>
+        <a href="#">Privacidad</a>
+        <a href="#">Estudiantes</a>
+    </footer>
+
+    <script src="../src/scripts.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+</body>
+</html>
